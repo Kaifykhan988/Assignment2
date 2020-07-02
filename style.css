@@ -1,0 +1,163 @@
+        * {
+            color: black;
+            background-color: white;
+        }
+
+        p {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        section nav {
+            background-color: transparent;
+            text-align: center;
+            padding: 5px;
+        }
+
+        section article {
+            display: inline;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        #home {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        a:hover {
+            color: darkblue;
+            cursor: pointer;
+        }
+
+        .main_heading {
+            text-align: center;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            font-size: 45px;
+            font-weight: 800;
+        }
+
+        section article h2 {
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            text-decoration: underline;
+        }
+
+        section article h2 a {
+            text-decoration: none;
+        }
+
+        section article h2 p {
+            font-size: 24px;
+            text-align: center !important;
+        }
+
+        #bookyourticket {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .one-third {
+            padding: 5px;
+            text-align: center;
+            background-color: darkcyan !important;
+        }
+
+        .onebox {
+            width: 10%;
+            text-align: justify;
+            float: left;
+            padding: 0px;
+        }
+
+        #contact, form, table, tr, th ,td{
+            background-color: lightseagreen !important;
+        }
+        table{
+            padding:35px !important;
+        }
+
+        .secbox {
+            width: 88%;
+            text-align: justify;
+            float: right;
+        }
+        
+        #blog{           
+            text-decoration:underline !important;
+        }
+
+        #contact{
+            text-decoration:underline !important;
+        }
+        .blog_text {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+
+        .blog_img_width {
+            width: 70% !important;
+            height: 320px !important;
+        }
+
+
+        .Align_c {
+            text-align: center;
+        }
+
+        .img_tbl {
+            width: 100%;
+            height: 200px;
+        }
+
+        .column {
+            float: left;
+            width: 30%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
